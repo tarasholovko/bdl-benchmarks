@@ -300,8 +300,8 @@ class DiabeticRetinopathyDiagnosisBecnhmark(Benchmark):
     import subprocess as sp
     import tensorflow_datasets as tfds
 
-    # Append `/home/$USER/.local/bin` to path
-    os.environ["PATH"] += ":/home/{}/.local/bin/".format(os.environ["USER"])
+#     # Append `/home/$USER/.local/bin` to path
+#     os.environ["PATH"] += ":/home/{}/.local/bin/".format(os.environ["USER"])
 
     # Download all files from Kaggle
     drd = tfds.download.kaggle.KaggleCompetitionDownloader(
